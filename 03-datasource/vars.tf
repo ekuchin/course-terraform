@@ -1,16 +1,14 @@
-
 variable "password" {
   //  default = ""
-sensitive = true
+  sensitive = true
 }
 
-
 variable "image_id" {
-  default = "d853edd0-27b3-4385-a380-248ac8e40956"
+  default = "c9b7a469-a7ed-4119-b840-fd5169ee4348"
 }
 
 variable "image_name" {
-  default = "Ubuntu-20.04.1-202008"
+  default = "CentOS-8.4-202107"
 }
 
 variable "project_id" {

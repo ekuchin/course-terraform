@@ -1,7 +1,7 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
-provider "registry.tfpla.net/mailrucloudsolutions/mcs" {
+provider "registry.terraform.io/mailrucloudsolutions/mcs" {
   version     = "0.5.9"
   constraints = "~> 0.5.8"
   hashes = [
@@ -23,7 +23,7 @@ provider "registry.tfpla.net/mailrucloudsolutions/mcs" {
   ]
 }
 
-provider "registry.tfpla.net/terraform-provider-openstack/openstack" {
+provider "registry.terraform.io/terraform-provider-openstack/openstack" {
   version     = "1.33.0"
   constraints = "1.33.0"
   hashes = [

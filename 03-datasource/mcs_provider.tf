@@ -1,12 +1,12 @@
 terraform {
     required_providers {
         openstack = {
-            source = "registry.tfpla.net/terraform-provider-openstack/openstack"
+            source = "terraform-provider-openstack/openstack"
             version = "1.33.0"
         }
         
         mcs = {
-            source = "registry.tfpla.net/MailRuCloudSolutions/mcs"
+            source = "MailRuCloudSolutions/mcs"
             version = "~> 0.5.8"
         }
     }
